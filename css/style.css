@@ -86,3 +86,23 @@ a {
     color: #ffffff;
     background-color: black;
 }
+
+/* footer */
+.footer{
+    padding: 25px;
+    
+}
+
+h3 {
+    text-align: center;
+}
+
+.social-menu {
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.social-item {
+    display: inline-block;
+    padding: 25px;
+}
