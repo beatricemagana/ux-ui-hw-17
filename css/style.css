@@ -1,3 +1,5 @@
+
+/* general stylings  */
 body {
     font-family: sans-serif;
     background-color: #F2F5EE;
@@ -7,6 +9,14 @@ header {
     width: 100%;
     height: 70px;
 }
+
+a {
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* navigation */
 
 .logo {
     font-size: 18px;
@@ -29,12 +39,50 @@ header {
     padding: 15px 30px;
 }
 
-a {
-    color: #000000;
-    text-decoration: none;
-    cursor: pointer;
-}
+/* introduction */
 
 .intro {
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10%;
+    grid-template-areas: 
+    "intro-title"
+    "intro-subtitle" 
+    "intro-img"
+}
 
+.intro-title, .intro-subtitle {
+    margin-left: 50%;
+    margin-top: 15%;
+
+}
+
+.intro-title {
+    grid-area: intro-title;
+}
+
+.intro-subtitle {
+    grid-area: intro-subtitle;
+
+}
+
+/* .intro-img {
+    grid-area: intro-img;
+    
+} */
+
+.section-break {
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 1px;
+    padding-bottom: 5px;
+}
+
+.work {
+    color: #ffffff;
+    background-color: black;
 }
